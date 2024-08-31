@@ -5,11 +5,14 @@
     margin: 0;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 header{
     text-align: center;
     background-color: black;
     color: white;
-    padding-bottom: 45px;
     font-size: 15px;
     
 }
@@ -17,14 +20,19 @@ header{
 header h1{
     padding-top: 50px;
     font-size: 60px;
+    font-variant: small-caps;
 }
 
-header a{
+header p {
+    padding-bottom: 50px;
+}
+
+header a, footer a{
     color: white;
     text-decoration: none;
 }
 
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
@@ -35,7 +43,16 @@ main{
     font-weight: bold;
 }
 main section{
-    margin-top: 70px;
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  
+}
+
+main section.imagem{
+    background-color: darkgrey;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 footer{
@@ -48,9 +65,4 @@ footer{
 
 footer p{
    padding-bottom:5px ;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
 }
