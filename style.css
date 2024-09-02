@@ -24,7 +24,8 @@ header h1{
 }
 
 header p {
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
 header a, footer a{
@@ -37,7 +38,6 @@ header a:hover, footer a:hover{
 }
 
 main{
-    padding: 25px;
     font-size: 25px;
     font-style:italic;
     font-weight: bold;
@@ -46,6 +46,8 @@ main section{
     
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
   
 }
 
@@ -53,6 +55,12 @@ main section.imagem{
     background-color: darkgrey;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    color: white;
+}
+
+main section.imagem p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 footer{
