@@ -1,3 +1,3 @@
 # Projeto Cordel
 
-Este projeto foi desenvolvido para treinar habilidades em HTML e CSS. Trata-se de um site simples que apresenta um poema no estilo Cordel do autor brasileiro **Milton Duarte.**
+This project was developed to practice HTML and CSS skills. It's a simple website that features a Cordel-style poem by Brazilian author Milton Duarte.
